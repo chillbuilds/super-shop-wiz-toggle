@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "super-shop-wizard-click",
+    "version": "1.0",
+  
+    "description": "super shop wizard click",
+  
+    "icons": {
+      "48": "icons/ext-icon.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://www.neopets.com/*"],
+        "js": ["jquery.js", "index.js"]
+      }
+    ]
+  }
+  
